@@ -1,6 +1,6 @@
-id=china_isp_enabler
-name=china isp enabler
+id=chinese_sim_supporter
+name=Chinese SIM Supporter
 version=v1
 versionCode=1
 author=apporc
-description=enable china isp support for pixel 3
+description=support Chinese SIM for pixel 3
