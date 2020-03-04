@@ -20,7 +20,6 @@ This module does two things:
 2. add build properties
 
 ```
-    persist.dbg.volte_avail_ovr=1
     persist.dbg.ims_volte_enable=1
     persist.dbg.volte_avail_ovr=1
     persist.dbg.vt_avail_ovr=1
