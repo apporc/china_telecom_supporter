@@ -20,9 +20,6 @@ This module does two things:
 2. add build properties
 
 ```
-    ro.mtk_ims_support=1
-    ro.mtk_volte_support=1
-    persist.mtk.volte.enable=1
     persist.dbg.volte_avail_ovr=1
     persist.dbg.ims_volte_enable=1
     persist.dbg.volte_avail_ovr=1
