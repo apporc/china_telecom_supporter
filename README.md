@@ -26,4 +26,21 @@ Contents in this module:
     persist.radio.calls.on.ims=1
 ```
 
+How to use this module:
+Since Magisk-Repo reject modules specific to certain devices, you need to
+install this module manually. Procedure are as follows:
+
+1. Packaging and send it to your phone
+
+```
+git clone https://github.com/apporc/china_telecom_supporter
+cd china_telecom_supporter
+zip -r /tmp/china_telecom_supporter.zip *
+adb push /tmp/china_telecom_supporter.zip /sdcard/Download/
+```
+
+2. Install it from Magisk Manager UI
+   Go to "Magisk Manager -> Modules -> Install from storage",
+   choose china_telecom_supporter.zip and install, reboot.
+
 **NOTE**:Tested on Android 10/11 Pixel 3
