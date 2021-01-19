@@ -2,10 +2,10 @@
 
 A Magisk module to enable support for Chinese Telecom SIM Cards and VoLTE for Pixel 3.
 
-Contents in this module:
+1. Contents in this module:
 
-1. insert these lines to file
-   /system/vendor/rfs/msm/mpss/readonly/vendor/mbn/mcfg_sw/mbn_sw.txt
+- insert these lines to file
+  /system/vendor/rfs/msm/mpss/readonly/vendor/mbn/mcfg_sw/mbn_sw.txt
 
 ```
     mcfg_sw/generic/China/CT/Commercial/hVoLTE_OpenMkt/mcfg_sw.mbn
@@ -13,7 +13,7 @@ Contents in this module:
     mcfg_sw/generic/China/CT/Commercial/VoLTE_OpenMkt/mcfg_sw.mbn
 ```
 
-2. add build properties
+- add build properties
 
 ```
     persist.dbg.ims_volte_enable=1
@@ -26,21 +26,22 @@ Contents in this module:
     persist.radio.calls.on.ims=1
 ```
 
-How to use this module:
+2. How to use this module:
+
 Since Magisk-Repo reject modules specific to certain devices, you need to
 install this module manually. Procedure are as follows:
 
-1. Packaging and send it to your phone
+- Packaging and send it to your phone
 
 ```
-git clone https://github.com/apporc/china_telecom_supporter
-cd china_telecom_supporter
-zip -r /tmp/china_telecom_supporter.zip *
-adb push /tmp/china_telecom_supporter.zip /sdcard/Download/
+    git clone https://github.com/apporc/china_telecom_supporter
+    cd china_telecom_supporter
+    zip -r /tmp/china_telecom_supporter.zip *
+    adb push /tmp/china_telecom_supporter.zip /sdcard/Download/
 ```
 
-2. Install it from Magisk Manager UI
-   Go to "Magisk Manager -> Modules -> Install from storage",
-   choose china_telecom_supporter.zip and install, reboot.
+- Install it from Magisk Manager UI
+  Go to "Magisk Manager -> Modules -> Install from storage",
+  choose china_telecom_supporter.zip and install, reboot.
 
 **NOTE**:Tested on Android 10/11 Pixel 3
