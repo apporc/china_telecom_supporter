@@ -5,12 +5,9 @@ mcfg_sw/generic/APAC/SBM/Commercial/mcfg_sw.mbn
 mcfg_sw/generic/AUNZ/Optus/Commercial/AU/mcfg_sw.mbn
 mcfg_sw/generic/AUNZ/Telstra/Commercial/mcfg_sw.mbn
 mcfg_sw/generic/AUNZ/Vodafone/Commercial/mcfg_sw.mbn
-mcfg_sw/generic/China/CMCC/Commercial/Volte_OpenMkt/mcfg_sw.mbn
 mcfg_sw/generic/China/CT/Commercial/hVoLTE_OpenMkt/mcfg_sw.mbn
 mcfg_sw/generic/China/CT/Commercial/OpenMkt/mcfg_sw.mbn
 mcfg_sw/generic/China/CT/Commercial/VoLTE_OpenMkt/mcfg_sw.mbn
-mcfg_sw/generic/China/CU/Commercial/OpenMkt/mcfg_sw.mbn
-mcfg_sw/generic/China/CU/Commercial/VoLTE/mcfg_sw.mbn
 mcfg_sw/generic/EU/Bouygues/Commercial/France/mcfg_sw.mbn
 mcfg_sw/generic/EU/DT/VoLTE/Commercial/mcfg_sw.mbn
 mcfg_sw/generic/EU/EE/Commercial/mcfg_sw.mbn

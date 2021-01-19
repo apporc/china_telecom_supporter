@@ -1,20 +1,16 @@
-Chinese SIM Supporter
-==
+# China Telecom Supporter
 
-A Magisk module to enable support for Chinese SIM Cards(including China 
-Telecom, China Unicom and China Mobile) and VoLTE for pixel 3.
+A Magisk module to enable support for Chinese Telecom SIM Cards and VoLTE for Pixel 3.
 
-This module does two things:
+Contents in this module:
+
 1. insert these lines to file
-/system/vendor/rfs/msm/mpss/readonly/vendor/mbn/mcfg_sw/mbn_sw.txt 
+   /system/vendor/rfs/msm/mpss/readonly/vendor/mbn/mcfg_sw/mbn_sw.txt
 
 ```
-    mcfg_sw/generic/China/CMCC/Commercial/Volte_OpenMkt/mcfg_sw.mbn
     mcfg_sw/generic/China/CT/Commercial/hVoLTE_OpenMkt/mcfg_sw.mbn
     mcfg_sw/generic/China/CT/Commercial/OpenMkt/mcfg_sw.mbn
     mcfg_sw/generic/China/CT/Commercial/VoLTE_OpenMkt/mcfg_sw.mbn
-    mcfg_sw/generic/China/CU/Commercial/OpenMkt/mcfg_sw.mbn
-    mcfg_sw/generic/China/CU/Commercial/VoLTE/mcfg_sw.mbn
 ```
 
 2. add build properties
@@ -30,4 +26,4 @@ This module does two things:
     persist.radio.calls.on.ims=1
 ```
 
-**NOTE**:Tested on Android 10 for China Telecom only.
+**NOTE**:Tested on Android 10/11 Pixel 3
